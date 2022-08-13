@@ -1,9 +1,11 @@
 # Ansible-Dynamic_Manage-EC2-AWS
 This configuration will connect ansible to your aws account allowing you to dynamically configure ec2 instances using Ansible by use of playbooks or ad-hoc commands. 
 
-# Steps to set up the configuration
+
 # As a note you would need ssh access set up on your servers
 # Also as a note you would need an AWS Access Key and AWS Secret Access Key configured on the server you're running the commands on for this to work
+
+# Steps to set up the configuration
 
 1. Create a python virtual evnvironment, command below
  python3 -m venv .env 
